@@ -11,6 +11,7 @@
 		031966CF2630BD08006CB9E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031966CE2630BD08006CB9E1 /* ContentView.swift */; };
 		031966D12630BD09006CB9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031966D02630BD09006CB9E1 /* Assets.xcassets */; };
 		031966D42630BD09006CB9E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031966D32630BD09006CB9E1 /* Preview Assets.xcassets */; };
+		031966DC2630BE58006CB9E1 /* IdentifiableIndices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031966DB2630BE58006CB9E1 /* IdentifiableIndices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		031966D02630BD09006CB9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		031966D32630BD09006CB9E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		031966D52630BD09006CB9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031966DB2630BE58006CB9E1 /* IdentifiableIndices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableIndices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				031966D02630BD09006CB9E1 /* Assets.xcassets */,
 				031966D52630BD09006CB9E1 /* Info.plist */,
 				031966D22630BD09006CB9E1 /* Preview Content */,
+				031966DB2630BE58006CB9E1 /* IdentifiableIndices.swift */,
 			);
 			path = IdentifiableIndices;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				031966CF2630BD08006CB9E1 /* ContentView.swift in Sources */,
+				031966DC2630BE58006CB9E1 /* IdentifiableIndices.swift in Sources */,
 				031966CD2630BD08006CB9E1 /* IdentifiableIndicesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
