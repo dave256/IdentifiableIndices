@@ -39,6 +39,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                #warning("this should no longer be necessary now that we can make bindings in ForEach")
                 ForEach(list.notes.identifiableIndices) { index in
                     VStack(alignment: .leading) {
                         Text(list.notes[index].title)
